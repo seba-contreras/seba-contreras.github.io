@@ -85,10 +85,26 @@
     </item>
     
     <item>
+      <title>DMAKit: A user-friendly web platform for bringing state-of-the-art data analysis techniques to non-specific users</title>
+      <link>https://seba-contreras.github.io/publication/medina2020dmakit/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/publication/medina2020dmakit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Statistically-based methodology for revealing real contagion trends and correcting delay-induced errors in the assessment of COVID-19 pandemic</title>
       <link>https://seba-contreras.github.io/publication/contreras2020statistically/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://seba-contreras.github.io/publication/contreras2020statistically/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Country-Wise Forecast Model for the Effective Reproduction Number Rt of Coronavirus Disease</title>
+      <link>https://seba-contreras.github.io/publication/medina2020forecast/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/publication/medina2020forecast/</guid>
       <description></description>
     </item>
     
@@ -105,6 +121,14 @@
       <link>https://seba-contreras.github.io/publication/contreras2020novel/</link>
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://seba-contreras.github.io/publication/contreras2020novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of Supervised Learning Predictive Models for Highly Non-linear Biological, Biomedical, and General Datasets</title>
+      <link>https://seba-contreras.github.io/publication/medina2020nonlinear/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/publication/medina2020nonlinear/</guid>
       <description></description>
     </item>
     
