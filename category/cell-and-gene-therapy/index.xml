@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cell and Gene Therapy | Seba Contreras</title>
+    <link>https://seba-contreras.github.io/category/cell-and-gene-therapy/</link>
+      <atom:link href="https://seba-contreras.github.io/category/cell-and-gene-therapy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cell and Gene Therapy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2022} Seba Contreras</copyright><lastBuildDate>Mon, 14 Feb 2022 19:13:12 +0100</lastBuildDate>
+    <image>
+      <url>https://seba-contreras.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Cell and Gene Therapy</title>
+      <link>https://seba-contreras.github.io/category/cell-and-gene-therapy/</link>
+    </image>
+    
+    <item>
+      <title>Dr. Anamaria Sanchez-Daza</title>
+      <link>https://seba-contreras.github.io/collaborator/asanchez/</link>
+      <pubDate>Mon, 14 Feb 2022 19:13:12 +0100</pubDate>
+      <guid>https://seba-contreras.github.io/collaborator/asanchez/</guid>
+      <description>&lt;p&gt;Post Doctoral Researcher at the Centre for Biotechnology and Bioengineering (CeBiB), Universidad de Chile&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
