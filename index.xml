@@ -65,15 +65,6 @@
     </item>
     
     <item>
-      <title>Dr. Anamaria Sanchez-Daza</title>
-      <link>https://seba-contreras.github.io/collaborator/asanchez/</link>
-      <pubDate>Mon, 14 Feb 2022 19:13:12 +0100</pubDate>
-      <guid>https://seba-contreras.github.io/collaborator/asanchez/</guid>
-      <description>&lt;p&gt;Post Doctoral Researcher at the Centre for Biotechnology and Bioengineering (CeBiB), Universidad de Chile&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Welcome to my website</title>
       <link>https://seba-contreras.github.io/post/welcome/</link>
       <pubDate>Mon, 14 Feb 2022 19:13:12 +0100</pubDate>
@@ -119,6 +110,15 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Dr. Anamaria Sanchez-Daza</title>
+      <link>https://seba-contreras.github.io/collaborator/asanchez/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/collaborator/asanchez/</guid>
+      <description>&lt;p&gt;Post Doctoral Researcher at the Centre for Biotechnology and Bioengineering (CeBiB), Universidad de Chile&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Risking further COVID-19 waves despite vaccination</title>
       <link>https://seba-contreras.github.io/publication/contreras2021risking/</link>
       <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
@@ -140,33 +140,6 @@ $$&lt;/p&gt;
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://seba-contreras.github.io/publication/contreras2020realtime/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Dr. David Medina-Ortiz</title>
-      <link>https://seba-contreras.github.io/collaborator/dmedina/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://seba-contreras.github.io/collaborator/dmedina/</guid>
-      <description>&lt;p&gt;Post Doctoral Research Associate at Universidad de Magallanes (Chile)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dr. Karen Y. Oróstica</title>
-      <link>https://seba-contreras.github.io/collaborator/korostica/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://seba-contreras.github.io/collaborator/korostica/</guid>
-      <description>&lt;p&gt;Post Doctoral Researcher at Universidad de Talca (Chile)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Prof. Dr. Álvaro Olivera-Nappa</title>
-      <link>https://seba-contreras.github.io/collaborator/aolivera/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://seba-contreras.github.io/collaborator/aolivera/</guid>
-      <description>&lt;p&gt;Prof. for Chemical Engineering, Faculty of Physical and Mathematical Sciences, University of Chile&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -279,6 +252,15 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Dr. Karen Y. Oróstica</title>
+      <link>https://seba-contreras.github.io/collaborator/korostica/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/collaborator/korostica/</guid>
+      <description>&lt;p&gt;Post Doctoral Researcher at Universidad de Talca (Chile)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A novel synthetic model of the glucose-insulin system for patient-wise inference of physiological parameters from small-size OGTT data</title>
       <link>https://seba-contreras.github.io/publication/contreras2020novel/</link>
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
@@ -292,6 +274,24 @@ $$&lt;/p&gt;
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://seba-contreras.github.io/publication/medina2020nonlinear/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. David Medina-Ortiz</title>
+      <link>https://seba-contreras.github.io/collaborator/dmedina/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/collaborator/dmedina/</guid>
+      <description>&lt;p&gt;Post Doctoral Research Associate at Universidad de Magallanes (Chile)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prof. Dr. Álvaro Olivera-Nappa</title>
+      <link>https://seba-contreras.github.io/collaborator/aolivera/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://seba-contreras.github.io/collaborator/aolivera/</guid>
+      <description>&lt;p&gt;Prof. for Chemical Engineering, Faculty of Physical and Mathematical Sciences, University of Chile&lt;/p&gt;
+</description>
     </item>
     
     <item>
