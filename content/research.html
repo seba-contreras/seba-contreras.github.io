@@ -1,0 +1,35 @@
+---
+permalink: /research/
+mathjax: true
+---
+
+<div class="row identity bg-light text-dark">
+  <h1 class="col col-xl-10 col-md-12 align-self-center">Research</h1>
+  <p class="col col-xl-10 col-md-12 align-self-center">
+    I am a complex-systems physicist working at the boundary between statistical physics and epidemiology.
+    Using mathematical modelling, I search for general principles in the dynamics of infectious diseases and
+    for quantitative insight into the controllability of outbreaks — with a focus on systems that adapt to
+    what is spreading in them: behaviour that reacts to risk, testing that reacts to prevalence, and contact
+    networks that rewire under both.
+  </p>
+</div>
+
+<div class="content research-topics col col-xl-10 col-md-12 align-self-center">
+  {% for topic in site.data.research.topics %}
+    {% include research-topic.html topic=topic %}
+  {% endfor %}
+</div>
+
+<aside class="publications-cta" aria-labelledby="publications-cta-title">
+  <div>
+    <h2 id="publications-cta-title">Full publication list</h2>
+    <p>
+      All papers, preprints and chapters, with abstracts.
+    </p>
+  </div>
+  <a class="publications-cta__link" href="/publications/">
+    Open publications <span aria-hidden="true">→</span>
+  </a>
+</aside>
+
+<script src="{{ site.baseurl }}/assets/js/research-publications.js"></script>

@@ -1,0 +1,51 @@
+---
+permalink: /publications/
+mathjax: true
+---
+
+<div class="row identity bg-light text-dark">
+  <h1 class="col col-xl-10 col-md-12 align-self-center">Publications</h1>
+  <p class="col col-xl-10 col-md-12 align-self-center">
+    Peer-reviewed articles, preprints and book chapters, newest first. Click a title for the publisher's page,
+    or expand the abstract. <sup>*</sup>equal contribution · <sup>†</sup>corresponding author.
+    Also on <a href="{{ site.author.googlescholar }}" rel="noopener noreferrer">Google Scholar</a> and
+    <a href="{{ site.author.orcid }}" rel="noopener noreferrer">ORCID</a>.
+  </p>
+</div>
+
+<div class="content research-topics publications-list col col-xl-10 col-md-12 align-self-center">
+  {% assign groups = "articles|preprints|chapters" | split: "|" %}
+  {% for group in groups %}
+    {% if group == "articles" %}{% assign items = site.data.publications | where: "type", "article" %}{% assign heading = "Journal articles" %}{% endif %}
+    {% if group == "preprints" %}{% assign items = site.data.publications | where: "type", "preprint" %}{% assign heading = "Preprints" %}{% endif %}
+    {% if group == "chapters" %}{% assign items = site.data.publications | where: "type", "chapter" %}{% assign heading = "Book chapters" %}{% endif %}
+    {% if items.size > 0 %}
+    <section class="card research-category publications-group" aria-labelledby="pub-group-{{ group }}">
+      <div class="card-body">
+        <h2 class="card-title" id="pub-group-{{ group }}">{{ heading }}</h2>
+        <div class="selected-publications">
+          <div class="selected-publications__list">
+            {% for publication in items %}
+              {% include publication-card.html publication=publication id=publication.key topic_id=group position=forloop.index %}
+              {% if publication.abstract and publication.abstract != "" %}
+              <section
+                class="publication-abstract-panel collapse"
+                id="abstract-{{ group }}-{{ publication.key }}"
+                aria-labelledby="abstract-toggle-{{ group }}-{{ publication.key }}"
+                aria-hidden="true"
+                hidden
+              >
+                <h5>Abstract</h5>
+                <p>{{ publication.abstract }}</p>
+              </section>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/research-publications.js"></script>

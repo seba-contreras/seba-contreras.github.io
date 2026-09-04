@@ -1,0 +1,30 @@
+# Collaborators shown on /collaborators/. Grouped by area; affiliations as stated in the CV / old site.
+areas:
+  - id: epidemiology
+    title: Epidemic modelling & public health
+    collaborators:
+      - name: Viola Priesemann
+        affiliation: MPI for Dynamics and Self-Organization & University of Göttingen, Germany
+      - name: Mirjam Kretzschmar
+        affiliation: UMC Utrecht, The Netherlands
+      - name: André Karch
+        affiliation: University of Münster, Germany
+  - id: genomics
+    title: Genomic surveillance & cancer research
+    collaborators:
+      - name: Karen Y. Oróstica
+        affiliation: Universidad de Talca, Chile
+      - name: Ricardo Armisén
+        affiliation: Universidad del Desarrollo, Chile
+  - id: protein
+    title: Protein engineering & machine learning
+    collaborators:
+      - name: David Medina-Ortiz
+        affiliation: Universidad de Magallanes, Chile
+      - name: Álvaro Olivera-Nappa
+        affiliation: Universidad de Chile, Chile
+  - id: biotech
+    title: Cell & gene therapy
+    collaborators:
+      - name: Anamaria Sanchez-Daza
+        affiliation: Centre for Biotechnology and Bioengineering (CeBiB), Universidad de Chile

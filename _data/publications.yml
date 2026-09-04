@@ -1,0 +1,916 @@
+# Full publication list. Newest first. `type`: article | preprint | chapter.
+# Author markup: <strong> highlights Seba; <sup>*</sup> equal contribution, <sup>†</sup> corresponding author.
+# `featured: true` + `image` + `blurb` puts an entry in the Selected publications block on the landing page.
+# Optional `url` overrides the DOI link (e.g. an arXiv page for a preprint).
+- key: contreras2026mechanics
+  title: Mechanics of pandemics
+  authors: <strong>Seba Contreras</strong><sup>†</sup>, Philipp Dönges, Laura Müller, Piklu Mallick, Sydney
+    Paltra, Ulrik Hvid, Robyn Kettlitz, Andreas Reitenbach, Rodrigo Amaral Lind, Maíra Aguiar, P. Bechtle,
+    André Calero Valdez, Ronja Gronemeyer, Manuela Harries, Veronika K. Jaeger, André Karch, Carolina
+    Judith Klett-Tammen, Peter Klimek, Mirjam E. Kretzschmar, Kai Nagel, Bjarke Frost Nielsen, Barbara
+    Prainsack, Isabella M. Radhuber, Lone Simonsen, Kim Sneppen, Janik Suer, Viola Priesemann<sup>†</sup>
+  journal: eClinicalMedicine
+  year: 2026
+  date: '2026-07-31'
+  doi: 10.1016/j.eclinm.2026.104101
+  type: article
+  abstract: COVID-19 and previous pandemics have shown how diseases can disrupt, threaten, and transform
+    daily life. Since pathogens and societies are continuously evolving, every pandemic is different.
+    However, certain fundamental principles of disease transmission appear to hold true across different
+    outbreaks. These "mechanisms" are grounded in natural laws or the very structure of our biology and
+    societies. This paper compiles ten fundamental mechanisms, curated by a multidisciplinary team with
+    backgrounds spanning public health, medicine, epidemiology, political science, mathematics, physics,
+    and psychology. These mechanisms, although perhaps underappreciated, substantially shape how pandemics
+    unfold and are controlled. The better we succeed in understanding these mechanisms and establishing
+    this knowledge in our societies, the better we will be able to prepare for future pandemics and respond
+    appropriately when they occur.
+  ref: 98, 104101
+  featured: true
+  image: img/featured/mechanics-of-pandemics.png
+  journal_short: eClinicalMedicine
+  blurb: Pathogen, people and policy shape each other. What the COVID-19 pandemic taught us about the
+    mechanics shared by pandemics — and what that means for the next one.
+- key: boehler2026impact
+  title: Impact of Non‐Pharmaceutical Interventions Targeted at COVID‐19 Pandemic on Influenza Burden—A
+    Systematic Review and Meta‐Analysis
+  authors: Laura-Inés Böhler, Lisa Köppel, Stefan Weber, Mary Gaeddert, Katharina Thielemann, Kerstin
+    Glaser, Horeya M. Ismail, Ulrich Reinacher, Veronika K. Jaeger, Julia Böhnke, Antonia Bartz, Maja
+    Pavić, Manuela Harries, Christina Kuczewski, Torben Heinsohn, Olga Hovardovska, Sin‐Yin Huei, Chao
+    Xu, Cornelia Gottschick, <strong>Seba Contreras</strong>, Maciej Filiński, Maurizio Grilli, Berit
+    Lange, RESPINOW Study Group, Claudia M. Denkinger
+  journal: Influenza and Other Respiratory Viruses
+  year: 2026
+  date: '2026-07-29'
+  doi: 10.1111/irv.70301
+  type: article
+  abstract: 'Seasonal influenza imposes a substantial global health burden. The COVID-19 pandemic, accompanied
+    by widespread non-pharmaceutical interventions (NPIs), profoundly disrupted respiratory virus circulation,
+    offering a unique opportunity to assess their broader epidemiological impact. This study aimed to
+    quantify changes in influenza burden between the pre-pandemic and intra-pandemic periods. Within the
+    RESPINOW project, we conducted a systematic review following PRISMA guidelines. Studies reporting
+    absolute influenza case counts before and during the pandemic were included. Data extraction and quality
+    assessment were performed using a modified NHLBI tool for before-after studies. Influenza cases were
+    normalized by reporting period length, and relative changes were estimated using incidence rate ratios.
+    Subgroup analyses explored age, setting, hemisphere, human development index, influenza transmission
+    zones, WHO regions, and viral strains. Of 20,676 screened records, 115 studies from 98 countries were
+    included. Globally, influenza incidence declined by -92% (95% CI: -94 to -90) following the onset
+    of the pandemic. Reductions varied geographically, ranging from near-elimination in several countries
+    to more modest declines (e.g., South Korea: -61%, 95% CI: -79 to -26). Decreases were observed across
+    all transmission zones and WHO regions, with descriptively larger reductions observed in high-income
+    countries (-96%, 95% CI: -98 to -94) than in low-income settings (-82%, 95% CI: -88 to -73). Age-specific
+    declines appeared smaller among young children (< 6 years: -66%, 95% CI: -79 to -45) compared with
+    adults aged 18-64 years (-80%, 95% CI: -90 to -63). Influenza A appeared to decline more strongly
+    than influenza B. The COVID-19 pandemic was associated with an unprecedented global reduction in influenza
+    incidence. Data limitations and the need for robust epidemiological indicators highlight the importance
+    of strengthened, integrated global surveillance to inform future pandemic responses.'
+  ref: 20(8), e70301
+- key: mallick2026stability
+  title: Stability and bifurcations of a minimal model for the effect of PrEP-related risk compensation
+    in epidemics of sexually transmitted infections
+  authors: Piklu Mallick, Laura Müller, Antonio B. Marín-Carballo, Philipp Dönges, <strong>Seba Contreras</strong><sup>†</sup>
+  journal: Chaos, Solitons & Fractals
+  year: 2026
+  date: '2026-06-19'
+  doi: 10.1016/j.chaos.2026.118649
+  type: article
+  abstract: 'HIV pre-exposure prophylaxis (PrEP) drastically reduces the risk of HIV infection if taken
+    as prescribed, providing almost perfect protection even during unprotected sexual intercourse. Although
+    this has been transformative in reducing new HIV infections among high-risk populations, it has also
+    been linked to an increase in risk practices – a phenomenon known as risk compensation – thereby favoring
+    the spread of other sexually transmitted infections (STIs) deemed less severe. In this paper, we study
+    a minimal compartmental model describing the effect of risk awareness and risk compensation due to
+    PrEP on the spread of other STIs among a high-infection-risk group of men who have sex with men (MSM).
+    The model integrates three key elements of risk-mediated behavior and PrEP programs: (i) HIV risk
+    awareness drives self-protective behaviors (such as condom use and voluntary STI screening); (ii)
+    individuals on PrEP are subject to risk compensation, but (iii) are required to screen for asymptomatic
+    STIs frequently. We derived the basic reproduction number of the system, $R_0$, and found a transcritical
+    bifurcation at $R_0=1$, where the disease-free equilibrium becomes unstable and an endemic equilibrium
+    emerges. This endemic equilibrium is asymptotically stable wherever it exists. We identified critical
+    thresholds in behavioral and policy parameters that separate these regimes and analyzed typical values
+    for plausible parameter choices. Beyond the specific epidemiological context, the model serves as
+    a general framework for studying nonlinear interactions between behavioral adaptation, preventive
+    interventions, and disease dynamics, providing insights into how feedback mechanisms can lead to non-trivial
+    responses in epidemic systems. Finally, our model can be easily extended to study the effect of interventions
+    and risk compensation in other STIs.'
+  ref: 210, 118649
+- key: contreras2026household
+  title: Household size can explain 40% of the variance in cumulative COVID-19 incidence across Europe
+  authors: <strong>Seba Contreras</strong><sup>†</sup>, Philipp Dönges, Maciej Filiński, Joel Wagner,
+    V. A. Bezborodov, Marcin Bodych, Barbara Pabjan, Franciszek Rakowski, Jan Pablo Burgard, Tyll Krueger,
+    Viola Priesemann
+  journal: arXiv preprint
+  year: 2026
+  date: '2026-02-17'
+  doi: 10.48550/arXiv.2602.15447
+  type: preprint
+  abstract: 'Household size impacts the spread of respiratory infectious diseases: Larger households tend
+    to boost transmission by acquiring external infections more frequently and subsequently transmitting
+    them back into the community. Furthermore, mandatory interventions primarily modulate contagion between
+    households rather than within them. We developed an approach to quantify the role of household size
+    in epidemics by separating within-household from out-household transmission, and found that household
+    size explains 41% of the variability in cumulative COVID-19 incidence across 34 European countries
+    (95% confidence interval: [15%, 46%]). The contribution of households to the overall dynamics can
+    be quantified by a boost factor that increases with the effective household size, implying that countries
+    with larger households require more stringent interventions to achieve the same levels of containment.
+    This suggests that households constitute a structural (dis-)advantage that must be considered when
+    designing and evaluating mitigation strategies.'
+  ref: arXiv:2602.15447
+  url: https://arxiv.org/abs/2602.15447
+- key: mueller2025testing
+  title: 'Testing paradox may explain increased observed prevalence of bacterial STIs among MSM on HIV
+    PrEP: A modeling study'
+  authors: Laura Müller, Piklu Mallick, Antonio B. Marín-Carballo, Philipp Dönges, Robyn Kettlitz, Carolina
+    Judith Klett-Tammen, Mirjam Kretzschmar, Viola Priesemann, <strong>Seba Contreras</strong><sup>†</sup>
+  journal: Proceedings of the National Academy of Sciences
+  year: 2025
+  date: '2025-10-29'
+  doi: 10.1073/pnas.2524944122
+  type: article
+  abstract: 'HIV pre-exposure prophylaxis (PrEP) is transforming global HIV prevention, but its implementation
+    coincides with observations of rising bacterial sexually transmitted infection (STI) rates among men
+    who have sex with men, raising questions about whether PrEP is preventing one epidemic while facilitating
+    others. To reconcile this apparent contradiction, we developed a minimal dynamical model of the simultaneous
+    transmission of HIV and chlamydia (as an example of a curable STI). The model integrates three key
+    mechanisms: 1) risk-mediated self-protective behavior, 2) reduction in condom use among PrEP users,
+    and 3) PrEP-related asymptomatic STI screening. We show that these mechanisms can generate a "testing
+    paradox:" True STI prevalence may decline while observed trends rise. This paradox emerges because
+    increased PrEP uptake amplifies screening intensity, which can lower transmission but simultaneously
+    inflate detection. By systematically mapping the parameter space of PrEP uptake, screening frequency,
+    and risk perception, we identify broad and plausible conditions under which the paradox arises. Our
+    findings reconcile conflicting epidemiological evidence and remark that the net effect of PrEP on
+    STI dynamics depends critically on asymptomatic screening strategies. These results highlight the
+    potential dual role of PrEP programs in reducing both HIV and bacterial STI incidence, while emphasizing
+    the need to align screening and treatment policies to maximize benefits and minimize risks, e.g.,
+    antimicrobial resistance.'
+  ref: 122(44), e2524944122
+  featured: true
+  image: img/featured/testing-paradox.jpg
+  journal_short: PNAS
+  blurb: 'True STI prevalence among MSM on PrEP can fall while positive tests rise: more screening finds
+    more, even as transmission drops. A modelling study that reconciles conflicting evidence.'
+- key: kettlitz2025polio
+  title: 'Self-reported poliomyelitis vaccination and documentation in adults indicates high uptake: a
+    digital German epidemic panel, December 2024'
+  authors: Robyn Kettlitz, Manuela Harries, <strong>Seba Contreras</strong>, Jannik Reinecke, Maren Sophia
+    Wieder, Thomas von Lengerke, Stefanie Castell, Berit Lange, Carolina Judith Klett-Tammen, PCR-4-ALL
+    study group, Xavier Casadevall i Solvas, Emine Kayahan, Mariam Mohamed Abdelsatta Bayoumi, Gregor
+    Fritz, Zhiyuan Ma, Jeroen Lammertyn, Dragana Spasic, Lorenz Van Hileghem, Robin De Groote, Javier
+    Martinez-Picado, Elisabet Fernández-Rosas, Sara Morón-López, Maria C. Puertas, Maria C. Garcia-Guerrero,
+    Catia Nicodemo, Alessandro Bucciol, Stefano Landi, Chiara Leardini, Giulia Montresor, Khalidwa Shomali,
+    Isti Rodiah, Felix Jenniches Helmholtz, Daniel Alexander Schulze, Vanessa Melhorn, MuSPAD study group,
+    Monika Strengert, Alex Dulovic, Nicole Schneiderhan-Marra, Jana-Kristin Heise, Gérard Krause, Pilar
+    Hernandez, Daniela Gornyk, Monike Schlüter, Tobias Kerrinnes, Gerhard Bojara, Kerstin Frank, Knut
+    Gubbe, Torsten Tonn, Oliver Kappert, Winfried V. Kern, Thomas Illig, Norman Klopp, Gottfried Roller,
+    Michael Ziemons
+  journal: BMC Public Health
+  year: 2025
+  date: '2025-10-16'
+  doi: 10.1186/s12889-025-24865-9
+  type: article
+  abstract: 'BACKGROUND: On 12 December 2024, the Standing Committee on Vaccination (STIKO) recommended
+    universal polio catch-up vaccination for children and adolescents up to 16, urging parents to check
+    their children''s immunization status following detections of vaccine-derived poliovirus in wastewater.
+    The Robert Koch Institute (RKI) also advised healthcare professionals to ensure vaccination coverage
+    in priority groups. Regional health authorities, called on all citizens to review their vaccination
+    records to address any immunization gaps. We investigated vaccine uptake (documented / recalled) to
+    improve estimates of immunity against poliovirus among the German population and gain insights into
+    the proportion of undocumented vaccines. METHODS: We conducted a survey in December 2024 using the
+    eResearch System PIA (Prospective Monitoring and Management-App) to collect data on self-reported
+    vaccine uptake among a German cohort. We calculated the frequency of vaccinations that were documented
+    and undocumented, as well as the types of vaccines and the number of doses received. Vaccination status
+    was classified as received ≤ 2 doses versus ≥ 3 doses of any polio-containing vaccine. We applied
+    survey weights to calculate frequencies according the general German population (by age, sex, region)
+    and logistic regression to examine the relationships between the vaccinations that were not documented
+    but recalled, and the factors associated with these undocumented vaccinations. RESULTS: Among 1,124
+    participants who completed the survey on vaccination uptake, 1,097 (96.9%) participants stated to
+    have a vaccination record. A total of 823/1,124 (74.3%) reported having a vaccination record, where
+    at least one poliomyelitis vaccine was documented, whereas 233 (19.0%) participants recalled at least
+    one poliomyelitis vaccination without documentation or vaccination record. Of 1,124, 68 participants
+    (6.7%) did not report any polio vaccination neither documented nor recalled without documentation.
+    Among the 823 participants with documented vaccination and at least one vaccination, 592 (75.1%) received
+    at least three doses of a poliomyelitis vaccine, with a decline in older age groups, less than three
+    doses were reported by 164 (17.6%), and the remaining 7.3% (n = 67) did not have information on the
+    number of doses administered. Of 2,768 documented vaccine doses, 898 (29.9%) were oral poliovirus
+    vaccines (OPV) and 704 (26.2%) were inactivated poliovirus vaccines (IPV). In 1,166 vaccines (43.9%),
+    the type could not be derived by the participants from the vaccination record. The odds of having
+    a recalled vaccination (not documented) was higher in male and the older age groups compared to females
+    and younger participants. DISCUSSION: We found similar poliomyelitis vaccination uptake compared to
+    other data sources e.g., of the Robert Koch Institute (RKI). Vaccine-derived immunity to poliomyelitis
+    may be underestimated based on vaccination records only. There is a need to address potential gaps
+    in health literacy and vaccination records. Efforts should be made to conduct continuous seroprevalence
+    surveys in the population in response to emerging public health threats and deduce parameters to inform
+    modelling infection dynamics in specific outbreak scenarios. TRIAL REGISTRATION: The PCR-4-ALL cohort
+    was registered in the German Clinical Trials Register on the 3rd of September 2024 (DRKS00034763).'
+  ref: 25(1), 3514
+- key: zunker2025risk
+  title: Risk-mediated dynamic regulation of effective contacts de-synchronizes outbreaks in metapopulation
+    epidemic models
+  authors: Henrik Zunker, Philipp Dönges, Patrick Lenz, <strong>Seba Contreras</strong><sup>†</sup>, Martin
+    J. Kühn<sup>†</sup>
+  journal: Chaos, Solitons & Fractals
+  year: 2025
+  date: '2025-07-04'
+  doi: 10.1016/j.chaos.2025.116782
+  type: article
+  abstract: 'Metapopulation epidemic models help capture the spatial dimension of infectious disease spread
+    by dividing heterogeneous populations into separate but interconnected communities, represented by
+    nodes in a network. In the event of an epidemic, an important research question is, to what degree
+    is the spatial information (i.e., regional or national) relevant for mitigation and (local) policymakers?
+    This study investigates the impact of different levels of information on nationwide epidemic outcomes,
+    modeling the reaction to the measured hazard as a feedback loop reducing contact rates in a metapopulation
+    model based on ordinary differential equations (ODEs). Using COVID-19 and high-resolution mobility
+    data for Germany of 2020 as a case study, our model revealed two markedly different regimes depending
+    on the maximum contact reduction. In the first regime of (modest) mitigation , gradually increasing
+    maximum contact reduction from zero to moderate levels delayed and spread out the onset of infection
+    waves while gradually reducing the peak values. This effect was more pronounced when the contribution
+    of regional information was low relative to national data. In the opposite suppression regime, the
+    feedback-induced contact reduction is strong enough to extinguish local outbreaks and decrease the
+    mean and variance of the peak day distribution, thus regional information was more important. When
+    suppression or elimination is impossible, ensuring local epidemics are desynchronized helps to avoid
+    hospitalization or intensive care bottlenecks by reallocating resources from less-affected areas.
+    • Metapopulation model with dynamic contact regulation on different spatial scales. • Dynamic contact
+    regulation yields two regimes: disease mitigation and suppression. • Modest regulation (mitigation)
+    desynchronizes and delays the onset of epidemic waves. • High regulation (suppression) extinguishes
+    local outbreaks but synchronizes them. • Mitigation benefits from regional data; suppression, from
+    national data.'
+  ref: 199, 116782
+- key: wagner2025societal
+  title: Societal self-regulation induces complex infection dynamics and chaos
+  authors: Joel Wagner, Simon Bauer, <strong>Seba Contreras</strong>, Luk Fleddermann, Ulrich Parlitz,
+    Viola Priesemann
+  journal: Physical Review Research
+  year: 2025
+  date: '2025-03-24'
+  doi: 10.1103/PhysRevResearch.7.013308
+  type: article
+  abstract: Classically, endemic infectious diseases are expected to display relatively stable, predictable
+    infection dynamics. Accordingly, basic disease models such as the susceptible-infected-recovered-susceptible
+    model display stable endemic states or recurrent seasonal waves. However, if the human population
+    reacts to high infection numbers by mitigating the spread of the disease, then this delayed behavioral
+    feedback loop can generate infection waves itself, driven by periodic mitigation and subsequent relaxation.
+    We show that such behavioral reactions, together with a seasonal effect of comparable impact, can
+    cause complex and unpredictable infection dynamics, including Arnold tongues, coexisting attractors,
+    and chaos. Importantly, these arise in epidemiologically relevant parameter regions where the costs
+    associated to infections and mitigation are jointly minimized. By comparing our model to data, we
+    find signs that COVID-19 was mitigated in a way that favored complex infection dynamics. Our results
+    challenge the intuition that endemic disease dynamics necessarily implies predictability and seasonal
+    waves and show the emergence of complex infection dynamics when humans optimize their reaction to
+    increasing infection numbers.
+  ref: 7(1), 013308
+- key: orostica2025advances
+  title: 'Advances in machine learning for tumour classification in cancer of unknown primary: A mini-review'
+  authors: Karen Y. Oróstica, Felipe Mardones, Yanara A Bernal, Samuel Molina, Marcos Orchard, Ricardo
+    A. Verdugo, Daniel Carvajal‐Hausdorf, Katherine Marcelain, <strong>Seba Contreras</strong><sup>†</sup>,
+    Ricardo Armisén<sup>†</sup>
+  journal: Cancer Letters
+  year: 2024
+  date: '2024-11-28'
+  doi: 10.1016/j.canlet.2024.217348
+  type: article
+  abstract: 'Cancers of unknown primary (CUP) are a heterogeneous group of aggressive metastatic cancers
+    where standardised diagnostic techniques fail to identify the organ where it originated, resulting
+    in a poor prognosis and resistance to treatment. Recent advances in large-scale sequencing techniques
+    have enabled the identification of mutational signatures specific to particular tumour subtypes, even
+    from liquid biopsy samples such as blood. This breakthrough paves the way for the development of new
+    cost-effective diagnostic strategies. This mini-review explores recent advancements in Machine Learning
+    (ML) and its application to tumour classification methods for CUP patients, identifying its weaknesses
+    and strengths when classifying the tumour type. In the era of multi-omics, integrating several sources
+    of information (e.g., imaging, molecular biomarkers, and family history) requires important theoretical
+    advancements: increasing the dimensionality of the problem can result in lowering the predictive accuracy
+    and robustness when data is scarce. Here, we review and discuss different architectures and strategies
+    for incorporating cutting-edge machine learning into CUP diagnosis, aiming to bridge the gap between
+    theory and clinical practice. • Cancers of Unknown Primary (CUP) are a diagnostic and clinical challenge
+    in oncology. • Mutational signatures can differentiate tumour tissue and subtypes even in CUP. • Machine
+    Learning leverages hidden and complex patterns in CUP mutational data. • We review recent advancements
+    in ML applied to CUP diagnosis and classification.'
+  ref: 611, 217348
+- key: harries2025rsv
+  title: Novel multiplex tools in an epidemic panel improve prediction of RSV infection dynamics and disease
+    burden – a RESPINOW analysis
+  authors: Manuela Harries, Carolina Judith Klett-Tammen, Isti Rodiah, Alex Dulovic, Veronika K. Jaeger,
+    Jessica Krepel, <strong>Seba Contreras</strong>, Katrin Maak, Patrick Marsall, Annette Möller, Jana-Kristin
+    Heise, Stefanie Castell, RESPINOW study group, Nicole Schneiderhan-Marra, André Karch, Berit Lange
+  journal: medRxiv preprint
+  year: 2024
+  date: '2024-11-23'
+  doi: 10.1101/2024.11.20.24317653
+  type: preprint
+  abstract: 'Respiratory Syncytial Virus (RSV) is one of the leading causes of morbidity and mortality
+    among infants and adult risk groups worldwide. Substantial case-underdetection and gaps in the understanding
+    of reinfection dynamics of RSV limit reliable projection estimates. Here, we use a novel RSV multiplex
+    serological assay in a population-based panel to estimate season and age-specific probability of reinfection
+    and combine it with sentinel and notification data to parameterize a mathematical model tailored to
+    project RSV dynamics in Germany from 2020 to 2023. Our reinfection estimates, based on a 20% post-F
+    and a 45% N antibody increase in the assay over consecutive periods, were 5·7% (95%CI: 4·7-6·9) from
+    2020 to 2022 and 12·7% (95%CI: 10·5-15·2) from 2022 to 2023 in adults. In 2021, 30-39 year olds had
+    a higher risk of reinfection, whereas in 2022, all but the 30-39 age group had an increased risk of
+    reinfection. This suggests age-differential infection acquisition in the two seasons, e.g. due to
+    still stronger public health measures in place in 2021 than in 2022. Model-based projections that
+    include the population-based reinfection estimations predicted the onset and peak for the 23/24 RSV
+    season better than those only based on surveillance estimates. Rapid, age-specific reinfection assessments
+    and models incorporating this data will be critical for understanding and predicting RSV dynamics,
+    especially with changing post-pandemic patterns and new prevention strategies e.g. monoclonal antibody.
+    Helmholtz Association, EU Horizon 2020 research and innovation program, Federal Ministry of Education
+    and Research, and German Research supported this work.'
+  ref: ''
+- key: medina2024protein
+  title: Protein Language Models and Machine Learning Facilitate the Identification of Antimicrobial Peptides
+  authors: David Medina-Ortiz, <strong>Seba Contreras</strong>, Diego Fernández, Nicole Soto-García, Iván
+    Moya-Barría, Gabriel Cabas-Mora, Álvaro Olivera-Nappa
+  journal: International Journal of Molecular Sciences
+  year: 2024
+  date: '2024-08-14'
+  doi: 10.3390/ijms25168851
+  type: article
+  abstract: Peptides are bioactive molecules whose functional versatility in living organisms has led
+    to successful applications in diverse fields. In recent years, the amount of data describing peptide
+    sequences and function collected in open repositories has substantially increased, allowing the application
+    of more complex computational models to study the relations between the peptide composition and function.
+    This work introduces AMP-Detector, a sequence-based classification model for the detection of peptides'
+    functional biological activity, focusing on accelerating the discovery and de novo design of potential
+    antimicrobial peptides (AMPs). AMP-Detector introduces a novel sequence-based pipeline to train binary
+    classification models, integrating protein language models and machine learning algorithms. This pipeline
+    produced 21 models targeting antimicrobial, antiviral, and antibacterial activity, achieving average
+    precision exceeding 83%. Benchmark analyses revealed that our models outperformed existing methods
+    for AMPs and delivered comparable results for other biological activity types. Utilizing the Peptide
+    Atlas, we applied AMP-Detector to discover over 190,000 potential AMPs and demonstrated that it is
+    an integrative approach with generative learning to aid in de novo design, resulting in over 500 novel
+    AMPs. The combination of our methodology, robust models, and a generative design strategy offers a
+    significant advancement in peptide-based drug discovery and represents a pivotal tool for therapeutic
+    applications.
+  ref: 25(16), 8851
+- key: orostica2024early
+  title: Early mutational signatures and transmissibility of SARS-CoV-2 Gamma and Lambda variants in Chile
+  authors: Karen Y. Oróstica<sup>*</sup>, Sebastian B. Mohr<sup>*</sup>, Jonas Dehning<sup>*</sup>, Simon
+    Bauer, David Medina-Ortiz, Emil N. Iftekhar, Karen Mujica, Paulo C. Covarrubias, Soledad Ulloa, Andrés
+    Castillo, Anamaria Daza-Sánchez, Ricardo A. Verdugo, Jorge Fernández, Álvaro Olivera-Nappa, Viola
+    Priesemann, <strong>Seba Contreras</strong><sup>†</sup>
+  journal: Scientific Reports
+  year: 2024
+  date: '2024-07-11'
+  doi: 10.1038/s41598-024-66885-2
+  type: article
+  abstract: 'Genomic surveillance (GS) programmes were crucial in identifying and quantifying the mutating
+    patterns of SARS-CoV-2 during the COVID-19 pandemic. In this work, we develop a Bayesian framework
+    to quantify the relative transmissibility of different variants tailored for regions with limited
+    GS. We use it to study the relative transmissibility of SARS-CoV-2 variants in Chile. Among the 3443
+    SARS-CoV-2 genomes collected between January and June 2021, where sampling was designed to be representative,
+    the Gamma (P.1), Lambda (C.37), Alpha (B.1.1.7), B.1.1.348, and B.1.1 lineages were predominant. We
+    found that Lambda and Gamma variants'' reproduction numbers were 5% (95% CI: [1%, 14%]) and 16% (95%
+    CI: [11%, 21%]) larger than Alpha''s, respectively. Besides, we observed a systematic mutation enrichment
+    in the Spike gene for all circulating variants, which strongly correlated with variants'' transmissibility
+    during the studied period (r = 0.93, p-value = 0.025). We also characterised the mutational signatures
+    of local samples and their evolution over time and with the progress of vaccination, comparing them
+    with those of samples collected in other regions worldwide. Altogether, our work provides a reliable
+    method for quantifying variant transmissibility under subsampling and emphasises the importance of
+    continuous genomic surveillance.'
+  ref: 14(1), 16000
+- key: contreras2023endemic
+  title: 'From emergency response to long-term management: the many faces of the endemic state of COVID-19'
+  authors: <strong>Seba Contreras</strong>, Emil N. Iftekhar, Viola Priesemann
+  journal: The Lancet Regional Health – Europe
+  year: 2023
+  date: '2023-05-26'
+  doi: 10.1016/j.lanepe.2023.100664
+  type: article
+  abstract: On May 5th 2023, the World Health Organisation declared that COVID-19 does not constitute
+    a Public Health Emergency of International Concern (PHEIC) anymore, advising that it is time to transition
+    to long-term management of the COVID-19 pandemic. With the PHEIC being over, will COVID-19 become
+    endemic, and what does that imply? As SARS-CoV-2 is highly transmissible and immunity against it wanes,
+    one expects that COVID-19 incidence worldwide will settle to a nonzero level. The precise "endemic
+    equilibrium" is determined by the waning immunity and transmission rate of the predominant variants,
+    vaccination rates, seasonality, and human behaviour (including active mitigation responses). In other
+    words, the endemic equilibrium is a result of an implicit balance between the maximum incidence that
+    societies accept and the maximum feasible extent of mitigation they tolerate. Classically, one expects
+    for endemicity either relatively constant incidence, or seasonal waves. However, if moderate mitigation
+    responses remain necessary and interact with seasonality, complex and even chaotic dynamics can emerge
+    even in the endemic state.
+  ref: 30, 100664
+- key: dehning2023euro
+  title: Impact of the Euro 2020 championship on the spread of COVID-19
+  authors: Jonas Dehning<sup>*</sup>, Sebastian B. Mohr<sup>*</sup>, <strong>Seba Contreras</strong>,
+    Philipp Dönges, Emil N. Iftekhar, Oliver Schulz, Philip Bechtle, Viola Priesemann
+  journal: Nature Communications
+  year: 2023
+  date: '2023-01-18'
+  doi: 10.1038/s41467-022-35512-x
+  type: article
+  abstract: 'Large-scale events like the UEFA Euro 2020 football (soccer) championship offer a unique
+    opportunity to quantify the impact of gatherings on the spread of COVID-19, as the number and dates
+    of matches played by participating countries resembles a randomized study. Using Bayesian modeling
+    and the gender imbalance in COVID-19 data, we attribute 840,000 (95% CI: [0.39M, 1.26M]) COVID-19
+    cases across 12 countries to the championship. The impact depends non-linearly on the initial incidence,
+    the reproduction number R, and the number of matches played. The strongest effects are seen in Scotland
+    and England, where as much as 10,000 primary cases per million inhabitants occur from championship-related
+    gatherings. The average match-induced increase in R was 0.46 [0.18, 0.75] on match days, but important
+    matches caused an increase as large as +3. Altogether, our results provide quantitative insights that
+    help judge and mitigate the impact of large-scale events on pandemic spread.'
+  ref: 14(1), 122
+  featured: true
+  image: img/featured/euro-2020.png
+  journal_short: Nature Communications
+  blurb: 'The championship''s match schedule works like a randomised study: Bayesian modelling and the
+    gender imbalance in cases attribute about 840,000 COVID-19 cases across 12 countries to Euro 2020.'
+- key: contreras2023sampling
+  title: Model-based assessment of sampling protocols for infectious disease genomic surveillance
+  authors: <strong>Seba Contreras</strong>, Karen Y. Oróstica, Anamaria Daza-Sanchez, Joel Wagner, Philipp
+    Dönges, David Medina-Ortiz, Matias Jara, Ricardo A. Verdugo, Carlos Conca, Viola Priesemann, Álvaro
+    Olivera-Nappa
+  journal: Chaos, Solitons & Fractals
+  year: 2023
+  date: '2023-01-03'
+  doi: 10.1016/j.chaos.2022.113093
+  type: article
+  abstract: Genomic surveillance of infectious diseases allows monitoring circulating and emerging variants
+    and quantifying their epidemic potential. However, due to the high costs associated with genomic sequencing,
+    only a limited number of samples can be analysed. Thus, it is critical to understand how sampling
+    impacts the information generated. Here, we combine a compartmental model for the spread of COVID-19
+    (distinguishing several SARS-CoV-2 variants) with different sampling strategies to assess their impact
+    on genomic surveillance. In particular, we compare adaptive sampling, i.e., dynamically reallocating
+    resources between screening at points of entry and inside communities, and constant sampling, i.e.,
+    assigning fixed resources to the two locations. We show that adaptive sampling uncovers new variants
+    up to five weeks earlier than constant sampling, significantly reducing detection delays and estimation
+    errors. This advantage is most prominent at low sequencing rates. Although increasing the sequencing
+    rate has a similar effect, the marginal benefits of doing so may not always justify the associated
+    costs. Consequently, it is convenient for countries with comparatively few resources to operate at
+    lower sequencing rates, thereby profiting the most from adaptive sampling. Finally, our methodology
+    can be readily adapted to study undersampling in other dynamical systems.
+  ref: 167, 113093
+- key: orostica2022mutational
+  title: Total mutational load and clinical features as predictors of the metastatic status in lung adenocarcinoma
+    and squamous cell carcinoma patients
+  authors: Karen Y. Oróstica, Juan Saez Hidalgo, Pamela Santiago, Solange Rivas, <strong>Seba Contreras</strong>,
+    Gonzalo Navarro, Juan A. Asenjo, Álvaro Olivera-Nappa, Ricardo Armisén
+  journal: Journal of Translational Medicine
+  year: 2022
+  date: '2022-08-18'
+  doi: 10.1186/s12967-022-03572-8
+  type: article
+  abstract: 'BACKGROUND: Recently, extensive cancer genomic studies have revealed mutational and clinical
+    data of large cohorts of cancer patients. For example, the Pan-Lung Cancer 2016 dataset (part of The
+    Cancer Genome Atlas project), summarises the mutational and clinical profiles of different subtypes
+    of Lung Cancer (LC). Mutational and clinical signatures have been used independently for tumour typification
+    and prediction of metastasis in LC patients. Is it then possible to achieve better typifications and
+    predictions when combining both data streams? METHODS: In a cohort of 1144 Lung Adenocarcinoma (LUAD)
+    and Lung Squamous Cell Carcinoma (LSCC) patients, we studied the number of missense mutations (hereafter,
+    the Total Mutational Load TML) and distribution of clinical variables, for different classes of patients.
+    Using the TML and different sets of clinical variables (tumour stage, age, sex, smoking status, and
+    packs of cigarettes smoked per year), we built Random Forest classification models that calculate
+    the likelihood of developing metastasis. RESULTS: We found that LC patients different in age, smoking
+    status, and tumour type had significantly different mean TMLs. Although TML was an informative feature,
+    its effect was secondary to the "tumour stage" feature. However, its contribution to the classification
+    is not redundant with the latter; models trained using both TML and tumour stage performed better
+    than models trained using only one of these variables. We found that models trained in the entire
+    dataset (i.e., without using dimensionality reduction techniques) and without resampling achieved
+    the highest performance, with an F1 score of 0.64 (95%CrI [0.62, 0.66]). CONCLUSIONS: Clinical variables
+    and TML should be considered together when assessing the likelihood of LC patients progressing to
+    metastatic states, as the information these encode is not redundant. Altogether, we provide new evidence
+    of the need for comprehensive diagnostic tools for metastasis.'
+  ref: 20(1), 373
+- key: medina2022generalized
+  title: Generalized property-based encoders and digital signal processing facilitate predictive tasks
+    in protein engineering
+  authors: David Medina-Ortiz, <strong>Seba Contreras</strong><sup>†</sup>, Juan Amado-Hinojosa, Jorge
+    Torres-Almonacid, Juan A. Asenjo, Marcelo Navarrete, Alvaro Olivera-Nappa<sup>†</sup>
+  journal: Frontiers in Molecular Bioscience
+  year: 2022
+  date: '2022-07-01'
+  doi: 10.3389/fmolb.2022.898627
+  type: article
+  abstract: Computational methods in protein engineering often require encoding amino acid sequences,
+    i.e., converting them into numeric arrays. Physicochemical properties are a typical choice to define
+    encoders, where we replace each amino acid by its value for a given property. However, what property
+    (or group thereof) is best for a given predictive task remains an open problem. In this work, we generalize
+    property-based encoding strategies to maximize the performance of predictive models in protein engineering.
+    First, combining text mining and unsupervised learning, we partitioned the AAIndex database into eight
+    semantically-consistent groups of properties. We then applied a non-linear PCA within each group to
+    define a single encoder to represent it. Then, in several case studies, we assess the performance
+    of predictive models for protein and peptide function, folding, and biological activity, trained using
+    the proposed encoders and classical methods (One Hot Encoder and TAPE embeddings). Models trained
+    on datasets encoded with our encoders and converted to signals through the Fast Fourier Transform
+    (FFT) increased their precision and reduced their overfitting substantially, outperforming classical
+    approaches in most cases. Finally, we propose a preliminary methodology to create de novo sequences
+    with desired properties. All these results offer simple ways to increase the performance of general
+    and complex predictive tasks in protein engineering without increasing their complexity.
+  ref: 9, 898627
+- key: contreras2022describing
+  title: Describing a landscape we are yet discovering
+  authors: <strong>Seba Contreras</strong><sup>†</sup>, Jonas Dehning, Viola Priesemann
+  journal: AStA Advances in Statistical Analysis
+  year: 2022
+  date: '2022-06-01'
+  doi: 10.1007/s10182-022-00449-5
+  type: article
+  abstract: At the beginning of the COVID-19 pandemic, very little was known about both the disease and
+    the virus that caused it. As more information became available, the public awareness reached unprecedented
+    scales; epidemiological terms such as incidence or reproduction number infected our daily conversations.
+    Consequently, high pressure fell on the shoulders of policymakers, who were expected to point us to
+    the way out of this global health threat. However, whom do we ask when we all are still learning?
+    We would say, “let us build a model!”.
+  ref: 1--4
+- key: orostica2022newyear
+  title: 'New year, new SARS-CoV-2 variant: Resolutions on genomic surveillance protocols to face Omicron'
+  authors: Karen Y. Oróstica, <strong>Seba Contreras</strong><sup>†</sup>, Anamaria Sanchez-Daza, Jorge
+    Fernandez, Viola Priesemann, Alvaro Olivera-Nappa
+  journal: The Lancet Regional Health – Americas
+  year: 2022
+  date: '2022-03-01'
+  doi: 10.1016/j.lana.2022.100203
+  type: article
+  abstract: The emergence of SARS-CoV-2 variants with enhanced transmissibility and partial immune escape
+    (also known as Variants of Concern, VOC) has characterised the second year of the COVID-19 pandemic.
+    Genomic surveillance allows identifying hidden, fast-spreading lineages and VOCs before they become
+    a public health threat. The Chilean Public Health Institute (Instituto de Salud Pública, ISP) has
+    led SARS-CoV-2 genomic surveillance initiatives in Chile. Using sequencing data, the ISP has signalled
+    the introduction of VOCs and characterised their transmissibility and mutational signatures, contributing
+    to a better understanding of the local features of the pandemic.
+  ref: 7, 100203
+- key: doenges2022interplay
+  title: Interplay Between Risk Perception, Behavior, and COVID-19 Spread
+  authors: Philipp Dönges<sup>*</sup>, Joel Wagner<sup>*</sup>, <strong>Seba Contreras</strong><sup>*</sup>,
+    Emil N. Iftekhar<sup>*</sup>, Simon Bauer, Sebastian B. Mohr, Jonas Dehning, André Calero Valdez,
+    Mirjam Kretzschmar, Michael Mäs, Kai Nagel, Viola Priesemann
+  journal: Frontiers in Physics
+  year: 2022
+  date: '2022-02-01'
+  doi: 10.3389/fphy.2022.842180
+  type: article
+  abstract: Pharmaceutical and non-pharmaceutical interventions (NPIs) have been crucial for controlling
+    COVID-19. They are complemented by voluntary health-protective behavior, building a complex interplay
+    between risk perception, behavior, and disease spread. We studied how voluntary health-protective
+    behavior and vaccination willingness impact the long-term dynamics. We analyzed how different levels
+    of mandatory NPIs determine how individuals use their leeway for voluntary actions. If mandatory NPIs
+    are too weak, COVID-19 incidence will surge, implying high morbidity and mortality before individuals
+    react; if they are too strong, one expects a rebound wave once restrictions are lifted, challenging
+    the transition to endemicity. Conversely, moderate mandatory NPIs give individuals time and room to
+    adapt their level of caution, mitigating disease spread effectively. When complemented with high vaccination
+    rates, this also offers a robust way to limit the impacts of the Omicron variant of concern. Altogether,
+    our work highlights the importance of appropriate mandatory NPIs to maximise the impact of individual
+    voluntary actions in pandemic control.
+  ref: ''
+- key: olivera2022patientwise
+  title: 'Patient-Wise Methodology to Assess Glycemic Health Status: Applications to Quantify the Efficacy
+    and Physiological Targets of Polyphenols on Glycemic Control'
+  authors: Alvaro Olivera-Nappa<sup>†</sup>, <strong>Seba Contreras</strong><sup>†</sup>, María Florencia
+    Tevy, David Medina-Ortiz, Andrés Leschot, Pilar Vigil, Carlos Conca
+  journal: Frontiers in Nutrition
+  year: 2022
+  date: '2022-02-01'
+  doi: 10.3389/fnut.2022.831696
+  type: article
+  abstract: A growing body of evidence indicates that dietary polyphenols could be used as an early intervention
+    to treat glucose-insulin (G-I) dysregulation. However, studies report heterogeneous information, and
+    the targets of the intervention remain largely elusive. In this work, we provide a general methodology
+    to quantify the effects of any given polyphenol-rich food or formulae over glycemic regulation in
+    a patient-wise manner using an Oral Glucose Tolerance Test (OGTT). We use a mathematical model to
+    represent individual OGTT curves as the coordinated action of subsystems, each one described by a
+    parameter with physiological interpretation. Using the parameter values calculated for a cohort of
+    1198 individuals, we propose a statistical model to calculate the risk of dysglycemia and the coordination
+    among subsystems for each subject, thus providing a continuous and individual health assessment. This
+    method allows identifying individuals at high risk of dysglycemia—which would have been missed with
+    traditional binary diagnostic methods—enabling early nutritional intervention with a polyphenol-supplemented
+    diet where it is most effective and desirable. Besides, the proposed methodology assesses the effectiveness
+    of interventions over time when applied to the OGTT curves of a treated individual. We illustrate
+    the use of this method in a case study to assess the dose-dependent effects of Delphinol® on reducing
+    dysglycemia risk and improving the coordination between subsystems. Finally, this strategy enables,
+    on the one hand, the use of low-cost, non-invasive methods in population-scale nutritional studies.
+    On the other hand, it will help practitioners assess the effectiveness of an intervention based on
+    individual vulnerabilities and adapt the treatment to manage dysglycemia and avoid its progression
+    into disease.
+  ref: ''
+- key: contreras2022rethinking
+  title: 'Rethinking COVID-19 vaccine allocation: it is time to care about our neighbours'
+  authors: <strong>Seba Contreras</strong>, Alvaro Olivera-Nappa, Viola Priesemann
+  journal: The Lancet Regional Health – Europe
+  year: 2022
+  date: '2022-01-01'
+  doi: 10.1016/j.lanepe.2021.100277
+  type: article
+  abstract: The COVID-19 pandemic changed nearly every aspect of our lives. The rapid spread of the disease
+    exposed several layers of inequality that it has exploited to propagate preferentially. We find these
+    layers in different contexts and levels, such as the impossibility to self-isolate and do remote work
+    (at the individual level) or economic constraints to deploy a fast vaccination program (at the country
+    level). In the context of vaccination programmes, resources must be optimised to alleviate the pandemic
+    burden where it is needed the most.
+  ref: 12, 100277
+- key: sanchez2022uncertainty
+  title: 'COVID-19 Modeling Under Uncertainty: Statistical Data Analysis for Unveiling True Spreading
+    Dynamics and Guiding Correct Epidemiological Management'
+  authors: Anamaria Sanchez-Daza, David Medina-Ortiz, Álvaro Olivera-Nappa, <strong>Seba Contreras</strong>
+  journal: Studies in Systems, Decision and Control (Springer)
+  year: 2021
+  date: '2021-11-01'
+  doi: 10.1007/978-3-030-72834-2_9
+  type: chapter
+  abstract: ''
+  ref: '245'
+- key: contreras2021low
+  title: Low case numbers enable long-term stable pandemic control without lockdowns
+  authors: <strong>Seba Contreras</strong><sup>*</sup>, Jonas Dehning<sup>*</sup>, Sebastian Mohr<sup>*</sup>,
+    Paul F Spitzner<sup>*</sup>, Simon Bauer<sup>*</sup>, Viola Priesemann<sup>*</sup>
+  journal: Science Advances
+  year: 2021
+  date: '2021-10-01'
+  doi: 10.1126/sciadv.abg2243
+  type: article
+  abstract: The traditional long-term solutions for epidemic control involve eradication or population
+    immunity. Here, we analytically derive the existence of a third viable solution; a stable equilibrium
+    at low case numbers, where test-trace-and-isolate policies partially compensate for local spreading
+    events and only moderate restrictions remain necessary. In this equilibrium, daily cases stabilize
+    around ten or fewer new infections per million people. However, stability is endangered if restrictions
+    are relaxed or case numbers grow too high. The latter destabilization marks a tipping point beyond
+    which the spread self-accelerates. We show that a lockdown can reestablish control and that recurring
+    lockdowns are not necessary given sustained, moderate contact reduction. We illustrate how this strategy
+    profits from vaccination and helps mitigate variants of concern. This strategy reduces cumulative
+    cases (and fatalities) four times more than strategies that only avoid hospital collapse. In the long
+    term, immunization, large-scale testing, and international coordination will further facilitate control.
+  ref: 7(41), eabg2243
+- key: bauer2021relaxing
+  title: Relaxing restrictions at the pace of vaccination increases freedom and guards against further
+    COVID-19 waves
+  authors: Simon Bauer<sup>*</sup>, <strong>Seba Contreras</strong><sup>*</sup>, Jonas Dehning, Matthias
+    Linden, Emil Iftekhar, Sebastian Mohr, Alvaro Olivera-Nappa, Viola Priesemann
+  journal: PLoS Computational Biology
+  year: 2021
+  date: '2021-09-01'
+  doi: 10.1371/journal.pcbi.1009288
+  type: article
+  abstract: Mass vaccination offers a promising exit strategy for the COVID-19 pandemic. However, as vaccination
+    progresses, demands to lift restrictions increase, despite most of the population remaining susceptible.
+    Using our age-stratified SEIRD-ICU compartmental model and curated epidemiological and vaccination
+    data, we quantified the rate (relative to vaccination progress) at which countries can lift non-pharmaceutical
+    interventions without overwhelming their healthcare systems. We analyzed scenarios ranging from immediately
+    lifting restrictions (accepting high mortality and morbidity) to reducing case numbers to a level
+    where test-trace-and-isolate (TTI) programs efficiently compensate for local spreading events. In
+    general, the age-dependent vaccination roll-out implies a transient decrease of more than ten years
+    in the average age of ICU patients and deceased. The pace of vaccination determines the speed of lifting
+    restrictions; Taking the European Union (EU) as an example case, all considered scenarios allow for
+    steadily increasing contacts starting in May 2021 and relaxing most restrictions by autumn 2021. Throughout
+    summer 2021, only mild contact restrictions will remain necessary. However, only high vaccine uptake
+    can prevent further severe waves. Across EU countries, seroprevalence impacts the long-term success
+    of vaccination campaigns more strongly than age demographics. In addition, we highlight the need for
+    preventive measures to reduce contagion in school settings throughout the year 2021, where children
+    might be drivers of contagion because of them remaining susceptible. Strategies that maintain low
+    case numbers, instead of high ones, reduce infections and deaths by factors of eleven and five, respectively.
+    In general, policies with low case numbers significantly benefit from vaccination, as the overall
+    reduction in susceptibility will further diminish viral spread. Keeping case numbers low is the safest
+    long-term strategy because it considerably reduces mortality and morbidity and offers better preparedness
+    against emerging escape or more contagious virus variants while still allowing for higher contact
+    numbers (freedom) with progressing vaccinations.
+  ref: 17(9), e1009288
+- key: contreras2021risking
+  title: Risking further COVID-19 waves despite vaccination
+  authors: <strong>Seba Contreras</strong>, Viola Priesemann
+  journal: The Lancet Infectious Diseases
+  year: 2021
+  date: '2021-03-01'
+  doi: 10.1016/S1473-3099(21)00167-5
+  type: article
+  abstract: The sudden outbreak and global spread of COVID-19 took the world by surprise. Policy makers
+    started to work side-by-side with theoreticians, as there were and still are many unknowns, especially
+    regarding properties of virus variants, and the subsequent future development of the pandemic. In
+    times of uncertainty, mathematical models have shed light on the evolution of the pandemic to the
+    best of current scientific knowledge.
+  ref: 21(6), 745--746
+- key: contreras2021challenges
+  title: The challenges of containing SARS-CoV-2 via test-trace-and-isolate
+  authors: <strong>Seba Contreras</strong><sup>*</sup>, Jonas Dehning<sup>*</sup>, Matthias Loidolt<sup>*</sup>,
+    Johannes Zierenberg, Paul F Spitzner, Jorge Urrea-Quintero, Sebastian Mohr, Michael Wibral, Viola
+    Priesemann
+  journal: Nature Communications
+  year: 2021
+  date: '2021-01-01'
+  doi: 10.1038/s41467-020-20699-8
+  type: article
+  abstract: Without a cure, vaccine, or proven long-term immunity against SARS-CoV-2, test-trace-and-isolate
+    (TTI) strategies present a promising tool to contain its spread. For any TTI strategy, however, mitigation
+    is challenged by pre- and asymptomatic transmission, TTI-avoiders, and undetected spreaders, which
+    strongly contribute to “hidden” infection chains. Here, we study a semi-analytical model and identify
+    two tipping points between controlled and uncontrolled spread; (1) the behavior-driven reproduction
+    number of the hidden chains becomes too large to be compensated by the TTI capabilities, and (2) the
+    number of new infections exceeds the tracing capacity. Both trigger a self-accelerating spread. We
+    investigate how these tipping points depend on challenges like limited cooperation, missing contacts,
+    and imperfect isolation. Our results suggest that TTI alone is insufficient to contain an otherwise
+    unhindered spread of SARS-CoV-2, implying that complementary measures like social distancing and improved
+    hygiene remain necessary.
+  ref: 12(1), 1--13
+- key: contreras2020realtime
+  title: Real-time estimation of Rt for supporting public-health policies against COVID-19
+  authors: <strong>Seba Contreras</strong>, H Andrés Villavicencio, David Medina-Ortiz, Claudia P Saavedra,
+    Alvaro Olivera-Nappa
+  journal: Frontiers in Public Health
+  year: 2020
+  date: '2020-12-01'
+  doi: 10.3389/fpubh.2020.556689
+  type: article
+  abstract: In the absence of a consensus protocol to slow down the spread of SARS-CoV-2, policymakers
+    need real-time indicators to support decisions in public health matters. The Effective Reproduction
+    Number (Rt) represents the number of secondary infections generated per each case and can be dramatically
+    modified by applying effective interventions. However, current methodologies to calculate Rt from
+    data remain somewhat cumbersome, thus raising a barrier between its timely calculation and application
+    by policymakers. In this work, we provide a simple mathematical formulation for obtaining the effective
+    reproduction number in real-time using only and directly daily official case reports, obtained by
+    modifying the equations describing the viral spread. We numerically explore the accuracy and limitations
+    of the proposed methodology, which was demonstrated to provide accurate, timely, and intuitive results.
+    We illustrate the use of our methodology to study the evolution of the pandemic in different iconic
+    countries, and to assess the efficacy and promptness of different public health interventions.
+  ref: 8, 195
+- key: medina2020dmakit
+  title: 'DMAKit: A user-friendly web platform for bringing state-of-the-art data analysis techniques
+    to non-specific users'
+  authors: David Medina-Ortiz, <strong>Seba Contreras</strong>, Cristofer Quiroz, Juan A Asenjo, Alvaro
+    Olivera-Nappa
+  journal: Information Systems
+  year: 2020
+  date: '2020-11-01'
+  doi: 10.1016/j.is.2020.101557
+  type: article
+  abstract: Tremendous advances in different areas of knowledge are producing vast volumes of data, a
+    quantity so large that it has made necessary the development of new computational algorithms. Among
+    the algorithms developed, we find Machine Learning models and specific data mining techniques that
+    might be useful for all areas of knowledge. The use of computational tools for data analysis is increasingly
+    required, given the need to extract meaningful information from such large volumes of data. However,
+    there are no free access libraries, modules, or web services that comprise a vast array of analytical
+    techniques in a user-friendly environment for non-specific users. Those that exist raise high usability
+    barriers for those untrained in the field as they usually have specific installation requirements
+    and require in-depth programming knowledge, or may result expensive. As an alternative, we have developed
+    DMAKit, a user-friendly web platform powered by DMAKit-lib, a new library implemented in Python, which
+    facilitates the analysis of data of different kind and origins. Our tool implements a wide array of
+    state-of-the-art data mining and pattern recognition techniques, allowing the user to quickly implement
+    classification, prediction or clustering models, statistical evaluation, and feature analysis of different
+    attributes in diverse datasets without requiring any specific programming knowledge. DMAKit is especially
+    useful for users who have large volumes of data to be analyzed but do not have the informatics, mathematical,
+    or statistical knowledge to implement models. We expect this platform to provide a way to extract
+    information and analyze patterns through data mining techniques for anyone interested in applying
+    them with no specific knowledge required. Particularly, we present several cases of study in the areas
+    of biology, biotechnology, and biomedicine, where we highlight the applicability of our tool to ease
+    the labor of non-specialist users to apply data analysis and pattern recognition techniques. DMAKit
+    is available for non-commercial use as an open-access library, licensed under the GNU General Public
+    License, version GPL 3.0. The web platform is publicly available at https://pesb2.cl/dmakitWeb . Demonstrative
+    and tutorial videos for the web platform are available in https://pesb2.cl/dmakittutorials/ . Complete
+    urls for relevant content are listed in the Data Availability section.
+  ref: 93, 101557
+- key: contreras2020statistically
+  title: Statistically-based methodology for revealing real contagion trends and correcting delay-induced
+    errors in the assessment of COVID-19 pandemic
+  authors: <strong>Seba Contreras</strong>, Juan Pablo Biron-Lattes, H Andrés Villavicencio, David Medina-Ortiz,
+    Nyna Llanovarced-Kawles, Alvaro Olivera-Nappa
+  journal: Chaos, Solitons & Fractals
+  year: 2020
+  date: '2020-10-01'
+  doi: 10.1016/j.chaos.2020.110087
+  type: article
+  abstract: COVID-19 pandemic has reshaped our world in a timescale much shorter than what we can understand.
+    Particularities of SARS-CoV-2, such as its persistence in surfaces and the lack of a curative treatment
+    or vaccine against COVID-19, have pushed authorities to apply restrictive policies to control its
+    spreading. As data drove most of the decisions made in this global contingency, their quality is a
+    critical variable for decision-making actors, and therefore should be carefully curated. In this work,
+    we analyze the sources of error in typically reported epidemiological variables and usual tests used
+    for diagnosis, and their impact on our understanding of COVID-19 spreading dynamics. We address the
+    existence of different delays in the report of new cases, induced by the incubation time of the virus
+    and testing-diagnosis time gaps, and other error sources related to the sensitivity/specificity of
+    the tests used to diagnose COVID-19. Using a statistically-based algorithm, we perform a temporal
+    reclassification of cases to avoid delay-induced errors, building up new epidemiologic curves centered
+    in the day where the contagion effectively occurred. We also statistically enhance the robustness
+    behind the discharge/recovery clinical criteria in the absence of a direct test, which is typically
+    the case of non-first world countries, where the limited testing capabilities are fully dedicated
+    to the evaluation of new cases. Finally, we applied our methodology to assess the evolution of the
+    pandemic in Chile through the Effective Reproduction Number Rt, identifying different moments in which
+    data was misleading governmental actions. In doing so, we aim to raise public awareness of the need
+    for proper data reporting and processing protocols for epidemiological modelling and predictions.
+  ref: 136, 109925
+- key: contreras2020multi
+  title: A multi-group SEIRA model for the spread of COVID-19 among heterogeneous populations
+  authors: <strong>Seba Contreras</strong>, H Andrés Villavicencio, David Medina-Ortiz, Juan Pablo Biron-Lattes,
+    Alvaro Olivera-Nappa
+  journal: Chaos, Solitons & Fractals
+  year: 2020
+  date: '2020-07-01'
+  doi: 10.1016/j.chaos.2020.109925
+  type: article
+  abstract: The outbreak and propagation of COVID-19 have posed a considerable challenge to modern society.
+    In particular, the different restrictive actions taken by governments to prevent the spread of the
+    virus have changed the way humans interact and conceive interaction. Due to geographical, behavioral,
+    or economic factors, different sub-groups among a population are more (or less) likely to interact,
+    and thus to spread/acquire the virus. In this work, we present a general multi-group SEIRA model for
+    representing the spread of COVID-19 among a heterogeneous population and test it in a numerical case
+    of study. By highlighting its applicability and the ease with which its general formulation can be
+    adapted to particular studies, we expect our model to lead us to a better understanding of the evolution
+    of this pandemic and to better public-health policies to control it.
+  ref: 136, 109925
+- key: medina2020forecast
+  title: Country-Wise Forecast Model for the Effective Reproduction Number Rt of Coronavirus Disease
+  authors: David Medina-Ortiz, <strong>Seba Contreras</strong>, Yasna Barrera-Saavedra, Gabriel Cabas-Mora,
+    Alvaro Olivera-Nappa
+  journal: Frontiers in Physics
+  year: 2020
+  date: '2020-07-01'
+  doi: 10.3389/fphy.2020.00304
+  type: article
+  abstract: Due to the particularities of SARS-CoV-2, public health policies have played a crucial role
+    in the control of the COVID-19 pandemic. Epidemiological parameters for assessing the stage of the
+    outbreak, such as the Effective Reproduction Number (Rt), are not always straightforward to calculate,
+    raising barriers between the scientific community and non-scientific decision-making actors. The combination
+    of estimators of Rt with elaborated Machine Learning-based forecasting techniques provides a way to
+    support decision-making when assessing governmental plans of action. In this work, we develop forecast
+    models applying logistic growth strategies and auto-regression techniques based on Auto-Regressive
+    Integrated Moving Average (ARIMA) models for each country that records information about the COVID-19
+    outbreak. Using the forecast for the main variables of the outbreak, namely the number of infected
+    (I), recovered (R), and dead (D) individuals, we provide a real-time estimation of Rt and its temporal
+    evolution within a timeframe. With such models, we evaluate Rt trends at the continental and country
+    levels, providing a clear picture of the effect governmental actions have had on the spread. We expect
+    this methodology of combining forecast models for raw data to calculate Rt to serve as valuable input
+    to support decision-making related to controlling the spread of SARS-CoV-2.
+  ref: '304'
+- key: contreras2020rheological
+  title: A new statistically-based methodology for variability assessment of rheological parameters in
+    mineral processing
+  authors: <strong>Seba Contreras</strong>, Claudia Castillo, Álvaro Olivera-Nappa, Brian Townley, Christian
+    F. Ihle
+  journal: Minerals Engineering
+  year: 2020
+  date: '2020-06-27'
+  doi: 10.1016/j.mineng.2020.106494
+  type: article
+  abstract: If variability of input data for rheological measurements is not adequately included, their
+    associated uncertainty and subsequent modelling can be underrated. Mineral pulp rheology determination
+    is commonly done through triplicate tests, with such variability reported as multiples of a standard
+    deviation, with the potential for underestimation. In the present work, a novel statistically-based
+    methodology for the estimation of uncertainty in the rheological characterization of mineral suspensions
+    — and other parametric models — is proposed. From the variability of the experimental measurements
+    and the analytical propagation of errors, a set of rheological profiles are generated using Monte
+    Carlo simulations within a variability frame. The corresponding inverse problem for curve-fitting
+    is solved individually, resulting in distributions of fitted parameters, which were statistically
+    analyzed to obtain representative values for both the parameter and its true variability. The methodology
+    proposed herein has been used to explore the applicability and limitations of the Herschel-Bulkley
+    and Bingham models under specific experimental and data analysis protocols, where the relevance of
+    including low-shear-rate measurement points or yield stress measurements using alternative methods
+    is exposed. Additionally, we present a case study on the effect of the concentration of NaCl on the
+    rheological response of synthetic tailings consisting of quartz suspensions doped with kaolinite,
+    bentonite and kaolinite-bentonite blends, using the proposed methodology with a concentric cylinder
+    rheometer. Results show predominantly decreasing trends in yield stress as salt concentration increases,
+    with non-monotonical behavior and strongest variability associated to the quartz-bentonite blend.
+  ref: 156, 106494
+- key: contreras2020novel
+  title: A novel synthetic model of the glucose-insulin system for patient-wise inference of physiological
+    parameters from small-size OGTT data
+  authors: <strong>Seba Contreras</strong>, David Medina-Ortiz, Carlos Conca, Alvaro Olivera-Nappa
+  journal: Frontiers in Bioengineering and Biotechnology
+  year: 2020
+  date: '2020-03-01'
+  doi: 10.3389/fbioe.2020.00195
+  type: article
+  abstract: Existing mathematical models for the glucose-insulin (G-I) dynamics often involve variables
+    that are not susceptible to direct measurement. Standard clinical tests for measuring G-I levels for
+    diagnosing potential diseases are simple and relatively cheap, but seldom give enough information
+    to allow the identification of model parameters within the range in which they have a biological meaning,
+    thus generating a gap between mathematical modeling and any possible physiological explanation or
+    clinical interpretation. In the present work, we present a synthetic mathematical model to represent
+    the G-I dynamics in an Oral Glucose Tolerance Test (OGTT), which involves for the first time for OGTT-related
+    models, Delay Differential Equations. Our model can represent the radically different behaviors observed
+    in a studied cohort of 407 normoglycemic patients (the largest analyzed so far in parameter fitting
+    experiments), all masked under the current threshold-based normality criteria. We also propose a novel
+    approach to solve the parameter fitting inverse problem, involving the clustering of different G-I
+    profiles, a simulation-based exploration of the feasible set, and the construction of an information
+    function which reshapes it, based on the clinical records, experimental uncertainties, and physiological
+    criteria. This method allowed an individual-wise recognition of the parameters of our model using
+    small size OGTT data (5 measurements) directly, without modifying the routine procedures or requiring
+    particular clinical setups. Therefore, our methodology can be easily applied to gain parametric insights
+    to complement the existing tools for the diagnosis of G-I dysregulations. We tested the parameter
+    stability and sensitivity for individual subjects, and an empirical relationship between such indexes
+    and curve shapes was spotted. Since different G-I profiles, under the light of our model, are related
+    to different physiological mechanisms, the present method offers a tool for personally-oriented diagnosis
+    and treatment and to better define new health criteria.
+  ref: 8, 195
+- key: medina2020nonlinear
+  title: Development of Supervised Learning Predictive Models for Highly Non-linear Biological, Biomedical,
+    and General Datasets
+  authors: David Medina-Ortiz, <strong>Seba Contreras</strong>, Cristofer Quiroz, Alvaro Olivera-Nappa
+  journal: Frontiers in Molecular Biosciences
+  year: 2020
+  date: '2020-02-01'
+  doi: 10.3389/fmolb.2020.00013
+  type: article
+  abstract: In highly non-linear datasets, attributes or features do not allow readily finding visual
+    patterns for identifying common underlying behaviors. Therefore, it is not possible to achieve classification
+    or regression using linear or mildly non-linear hyperspace partition functions. Hence, supervised
+    learning models based on the application of most existing algorithms are limited, and their performance
+    metrics are low. Linear transformations of variables, such as principal components analysis, cannot
+    avoid the problem, and even models based on artificial neural networks and deep learning are unable
+    to improve the metrics. Sometimes, even when features allow classification or regression in reported
+    cases, performance metrics of supervised learning algorithms remain unsatisfyingly low. This problem
+    is recurrent in many areas of study as, per example, the clinical, biotechnological, and protein engineering
+    areas, where many of the attributes are correlated in an unknown and very non-linear fashion or are
+    categorical and difficult to relate to a target response variable. In such areas, being able to create
+    predictive models would dramatically impact the quality of their outcomes, generating an immediate
+    added value for both the scientific and general public. In this manuscript, we present RV-Clustering,
+    a library of unsupervised learning algorithms, and a new methodology designed to find optimum partitions
+    within highly non-linear datasets that allow deconvoluting variables and notoriously improving performance
+    metrics in supervised learning classification or regression models. The partitions obtained are statistically
+    cross-validated, ensuring correct representativity and no over-fitting. We have successfully tested
+    RV-Clustering in several highly non-linear datasets with different origins. The approach herein proposed
+    has generated classification and regression models with high-performance metrics, which further supports
+    its ability to generate predictive models for highly non-linear datasets. Advantageously, the method
+    does not require significant human input, which guarantees a higher usability in the biological, biomedical,
+    and protein engineering community with no specific knowledge in the machine learning area.
+  ref: 7, 13

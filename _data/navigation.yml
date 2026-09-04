@@ -1,0 +1,11 @@
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Collaborators"
+    url: /collaborators/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/

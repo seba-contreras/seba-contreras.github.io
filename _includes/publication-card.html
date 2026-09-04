@@ -1,0 +1,29 @@
+<article class="publication-card publication-card--{{ include.position }}">
+  <div class="publication-card__heading">
+    <h4>
+      <a
+        href="{% if include.publication.url %}{{ include.publication.url }}{% else %}https://doi.org/{{ include.publication.doi }}{% endif %}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >{{ include.publication.title }}</a>
+    </h4>
+    <div class="publication-card__venue">
+      <span><em>{{ include.publication.journal }}</em>{% if include.publication.ref and include.publication.ref != "" %}, {{ include.publication.ref }}{% endif %}{% if include.publication.note %} — {{ include.publication.note }}{% endif %}</span>
+      <time datetime="{{ include.publication.year }}">{{ include.publication.year }}</time>
+    </div>
+  </div>
+
+  <p class="publication-card__authors">{{ include.publication.authors }}</p>
+
+  {% if include.publication.abstract and include.publication.abstract != "" %}
+  <button
+    class="publication-card__abstract-toggle collapsed"
+    id="abstract-toggle-{{ include.topic_id }}-{{ include.id }}"
+    type="button"
+    aria-expanded="false"
+    aria-controls="abstract-{{ include.topic_id }}-{{ include.id }}"
+  >
+    Read full abstract
+  </button>
+  {% endif %}
+</article>

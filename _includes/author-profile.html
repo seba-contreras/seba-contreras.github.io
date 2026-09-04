@@ -1,0 +1,103 @@
+{% include base_path %}
+{% assign author = site.author %}
+
+<div itemscope itemtype="https://schema.org/Person">
+  <div class="author__avatar">
+    <img
+      src="{{ author.avatar_light | prepend: '/images/' | prepend: base_path }}"
+      class="author__avatar author__avatar--light"
+      alt="{{ author.name | escape }}"
+      fetchpriority="high"
+      itemprop="image"
+    >
+    <img
+      src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}"
+      class="author__avatar author__avatar--dark"
+      alt=""
+      aria-hidden="true"
+    >
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    <p class="author__bio" itemprop="description">{{ author.bio }}</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button
+      class="btn btn--inverse"
+      type="button"
+      aria-expanded="false"
+      aria-controls="author-profile-links"
+    >Profiles</button>
+    <ul id="author-profile-links" class="author__urls social-icons">
+      <li class="author__desktop author__location">
+        <a href="{{ author.location_url | escape }}" rel="noopener noreferrer">
+          <i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}
+        </a>
+      </li>
+      <li class="author__desktop author__affiliation">
+        <a href="{{ author.employer_url | escape }}" rel="noopener noreferrer">
+          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}
+        </a>
+      </li>
+      <li class="author__desktop author__affiliation">
+        <a href="{{ author.employer2_url | escape }}" rel="noopener noreferrer">
+          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer2 }}
+        </a>
+      </li>
+      <li>
+        <a href="mailto:{{ author.email }}">
+          <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email
+        </a>
+      </li>
+      <li>
+        <a href="{{ author.googlescholar | escape }}" rel="noopener noreferrer">
+          <i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar
+        </a>
+      </li>
+      <li>
+        <a href="{{ author.orcid | escape }}" rel="noopener noreferrer">
+          <i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>ORCID
+        </a>
+      </li>
+      <li>
+        <a href="{{ author.researchgate | escape }}" rel="noopener noreferrer">
+          <i class="ai ai-researchgate ai-fw icon-pad-right" aria-hidden="true"></i>ResearchGate
+        </a>
+      </li>
+      <li>
+        <a href="{{ author.wos | escape }}" rel="noopener noreferrer">
+          <i class="ai ai-clarivate ai-fw icon-pad-right" aria-hidden="true"></i>Web of Science
+        </a>
+      </li>
+      {% if author.scopus and author.scopus != "" %}
+      <li>
+        <a href="{{ author.scopus | escape }}" rel="noopener noreferrer">
+          <i class="ai ai-scopus ai-fw icon-pad-right" aria-hidden="true"></i>Scopus
+        </a>
+      </li>
+      {% endif %}
+      <li>
+        <a href="{{ author.arxiv | escape }}" rel="noopener noreferrer">
+          <i class="ai ai-arxiv ai-fw icon-pad-right" aria-hidden="true"></i>arXiv
+        </a>
+      </li>
+      <li>
+        <a href="{{ author.linkedin | escape }}" rel="noopener noreferrer">
+          <i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/{{ author.github | escape }}" rel="noopener noreferrer">
+          <i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub
+        </a>
+      </li>
+      <li>
+        <a href="{{ base_path }}/{{ author.cv }}">
+          <i class="ai ai-cv ai-fw icon-pad-right" aria-hidden="true"></i>CV (PDF)
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

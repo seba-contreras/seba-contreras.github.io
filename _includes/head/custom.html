@@ -1,0 +1,24 @@
+{% include base_path %}
+
+<base href="{{ site.baseurl | append: '/' }}">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32">
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css">
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/migration.css">
+
+{% if page.mathjax %}
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['\\[', '\\]']]
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+{% endif %}

@@ -1,0 +1,87 @@
+locale: "en-US"
+theme: null
+site_theme: "seba"
+title: "Seba Contreras"
+title_separator: "-"
+name: "Seba Contreras"
+description: "Complex systems physicist working on spreading processes in adaptive systems: epidemics, behaviour and the temporal contact networks that carry them."
+url: "https://seba-contreras.github.io"
+baseurl: ""
+repository: "seba-contreras/seba-contreras.github.io"
+
+author:
+  avatar: "seba_400x400.jpg"
+  avatar_light: "seba_400x400.jpg"
+  name: "Seba Contreras"
+  bio: "Associate Professor · Complex Epidemics lab"
+  location: "Hangzhou, China"
+  location_url: "https://en.wikipedia.org/wiki/Hangzhou"
+  employer: "H3I, Beihang University"
+  employer_url: "https://www.buaa.edu.cn/"
+  employer2: "IMMIDD, University of Münster"
+  employer2_url: "https://www.uni-muenster.de/IMMIDD/"
+  email: "contreras@buaa.edu.cn"
+  googlescholar: "https://scholar.google.com/citations?user=OuIoqBIAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0001-8909-774X"
+  researchgate: "https://www.researchgate.net/profile/Sebastian-Contreras-2"
+  wos: "https://www.webofscience.com/wos/author/record/GRJ-7495-2022"
+  scopus: ""   # TODO: paste your Scopus author profile URL (https://www.scopus.com/authid/detail.uri?authorId=...)
+  linkedin: "https://www.linkedin.com/in/seba-contreras-a66041b9/"
+  github: "seba-contreras"
+  arxiv: "https://arxiv.org/a/contreras_s_2"
+  cv: "files/CV_SContreras.pdf"
+
+breadcrumbs: false
+exclude:
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - content/overview.html
+  - README.md
+  - build_jekyll.py
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - preview.sh
+  - README.md
+  - vendor
+encoding: "utf-8"
+
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:categories/:title/
+timezone: Europe/Berlin
+
+plugins:
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  # Keep JavaScript line boundaries intact in production. The chaos article's
+  # inline plotting code uses line comments and automatic semicolon insertion.
+  blanklines: true
+  ignore:
+    envs: development

@@ -1,0 +1,42 @@
+---
+permalink: /contact/
+---
+
+<div class="row identity bg-light text-dark">
+  <h1 class="col col-xl-10 col-md-12 align-self-center">Contact</h1>
+  <p class="col col-xl-10 col-md-12 align-self-center">Email is the most reliable way to reach me.</p>
+</div>
+
+<div class="content contact-overview col col-xl-10 col-md-12 align-self-center">
+  <div class="contact-grid">
+    <section class="card contact-card bg-light text-dark">
+      <div class="card-body">
+        <h2 class="card-title">Seba Contreras</h2>
+        <div class="card-text">
+          International Research Center for Complexity Sciences<br>
+          Hangzhou International Innovation Institute (H3I)<br>
+          Beihang University<br>
+          Hangzhou, China<br><br>
+          email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card contact-card bg-light text-dark">
+      <div class="card-body">
+        <h2 class="card-title">Elsewhere</h2>
+        <div class="card-text">
+          <ul>
+            <li><a href="{{ site.author.googlescholar }}" rel="noopener noreferrer">Google Scholar</a></li>
+            <li><a href="{{ site.author.orcid }}" rel="noopener noreferrer">ORCID</a></li>
+            <li><a href="{{ site.author.researchgate }}" rel="noopener noreferrer">ResearchGate</a></li>
+            <li><a href="{{ site.author.wos }}" rel="noopener noreferrer">Web of Science</a></li>
+            {% if site.author.scopus and site.author.scopus != "" %}<li><a href="{{ site.author.scopus }}" rel="noopener noreferrer">Scopus</a></li>{% endif %}
+            <li><a href="{{ site.author.linkedin }}" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/{{ site.author.github }}" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

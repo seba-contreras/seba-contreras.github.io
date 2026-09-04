@@ -1,0 +1,39 @@
+topics:
+  - id: behaviour
+    title: Behaviour-driven epidemics
+    description: >-
+      Diseases spread on populations that react to them: people test, protect themselves, or change whom
+      they meet as their perception of risk shifts. I study this feedback with models in which behaviour and
+      infection dynamics co-evolve — from the interplay between risk perception and the spread of COVID-19 to
+      the testing paradox of bacterial STIs among MSM on HIV PrEP, and the bifurcations that risk compensation
+      induces. A central question is which interventions remain effective once the population adapts to them.
+    publications:
+      - mueller2025testing
+      - doenges2022interplay
+      - wagner2025societal
+
+  - id: control
+    title: Controllability of outbreaks
+    description: >-
+      How much control over an outbreak is possible, and at what cost? Using minimal models as instruments,
+      I have worked on the limits of test-trace-and-isolate, the stable low-case-number regime and the tipping
+      point beyond which spread self-accelerates, relaxing restrictions at the pace of vaccination, and the
+      complex — even chaotic — dynamics that emerge in the endemic state when moderate mitigation interacts
+      with seasonality.
+    publications:
+      - contreras2026mechanics
+      - contreras2021low
+      - contreras2021challenges
+
+  - id: networks
+    title: Adaptive networks and modelling beyond epidemics
+    description: >-
+      Contacts are not static: they are temporal, structured and adaptive. I work on spreading processes on
+      such networks — risk-mediated regulation of contacts in metapopulations, household structure as a driver
+      of incidence, sampling strategies for genomic surveillance — and keep collaborations in other fields
+      where a bit of extra modelling helps, from glucose–insulin dynamics and protein engineering to cancer
+      genomics.
+    publications:
+      - zunker2025risk
+      - contreras2026household
+      - contreras2023sampling

@@ -1,4 +1,6 @@
-public/
-resources/
-node_modules/
-.hugo_build.lock
+_site/
+.jekyll-cache/
+.sass-cache/
+/vendor/
+.bundle/
+Gemfile.lock

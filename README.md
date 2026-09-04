@@ -1,48 +1,53 @@
 # seba-contreras.github.io
 
-Source of [seba-contreras.github.io](https://seba-contreras.github.io/), built with [Hugo Blox](https://hugoblox.com/) (Academic CV template, the successor of Wowchemy/Academic).
+Source of [seba-contreras.github.io](https://seba-contreras.github.io/). Jekyll site adapted from
+[AcademicPages](https://github.com/academicpages/academicpages.github.io) via the
+[Priesemann group website](https://github.com/Priesemann-Group/priesemann-group.github.io) (both MIT).
+Pushing to `main` builds and deploys it through GitHub Actions (`.github/workflows/jekyll.yml`);
+the repository's Pages source must be set to *GitHub Actions*.
 
-The source lives on `main` in this repo; GitHub Actions builds the site and deploys it to GitHub Pages on every push. **Do not commit the `public/` folder.**
+## Where things live
 
-## Editing the site
-
-| What | Where |
+| What | File |
 |---|---|
-| Bio, role, affiliations, links, education, experience, awards, skills | `data/authors/me.yaml` |
-| Profile photo | `assets/media/authors/me.jpg` |
-| CV PDF | `static/uploads/CV_SContreras.pdf` |
-| Homepage sections (order, titles, contact block) | `content/_index.md` |
-| CV page sections | `content/experience.md` |
-| Publications | `content/publications/<key>/index.md` (+ optional `featured.jpg`, `cite.bib`) |
-| Collaborators | `content/collaborators/<slug>/index.md` (+ `featured.jpg`) |
-| Menu | `config/_default/menus.yaml` |
-| Colours, fonts, search, analytics | `config/_default/params.yaml` |
-| Hugo version used by CI | `hugoblox.yaml` (`build.hugo_version`) |
+| Name, sidebar bio, profile links, email | `_config.yml` (`author:` block) |
+| Profile photo (400×400) | `images/seba_400x400.jpg` |
+| CV PDF | `files/CV_SContreras.pdf` |
+| Menu | `_data/navigation.yml` |
+| Landing page (hero, research themes, latest paper box) | `content/overview.html` |
+| Research topics + their selected publications | `_data/research.yml` |
+| **All publications** (title, authors, journal, DOI, abstract) | `_data/publications.yml` |
+| Collaborators | `_data/collaborations.yml` |
+| CV page (positions, education, recognition, editorial, teaching, talks) | `content/cv.html` |
+| Contact page | `content/contact.html` |
+| Colours (light / dark) | `_sass/theme/_seba_light.scss`, `_sass/theme/_seba_dark.scss` |
+| Hero illustration | `img/spreading-network.png` |
 
-### Adding publications from BibTeX
+## Adding a publication
 
-Put BibTeX entries in a file named `publications.bib` at the repo root and push. The
-`Import Publications From Bibtex` workflow converts them into `content/publications/<key>/index.md`
-and opens a pull request for you to review and merge. You can also run it manually from the
-Actions tab, or locally:
+Add an entry at the top of `_data/publications.yml`:
 
-```bash
-pip install academic
-academic import publications.bib content/publications/ --compact
+```yaml
+- key: contreras2027something      # unique, used to reference it from research.yml
+  title: "Title"
+  authors: "First Author, <strong>Seba Contreras</strong><sup>†</sup>, Last Author"
+  journal: Journal Name
+  year: 2027
+  date: '2027-01-15'
+  doi: 10.xxxx/yyyy
+  type: article                    # article | preprint | chapter
+  ref: 12(3), 456                  # volume(issue), pages — optional
+  abstract: >-
+    Abstract text.
 ```
 
-Set `featured: true` in a publication's front matter to show it in the *Featured Publications* grid;
-drop a `featured.jpg` next to its `index.md` to give the card an image.
+`<strong>` highlights your name; `<sup>*</sup>` = equal contribution, `<sup>†</sup>` = corresponding author.
+To feature it on the Research page, add its `key` under a topic in `_data/research.yml`.
+To feature it on the landing page, edit the "Latest publication" box in `content/overview.html`.
 
 ## Local preview
 
 ```bash
-# once: Hugo extended (version in hugoblox.yaml), Go, Node 22, pnpm
-pnpm install
-hugo server -D
+bundle install
+bundle exec jekyll serve      # http://localhost:4000
 ```
-
-## Deployment
-
-`.github/workflows/deploy.yml` builds and deploys on push to `main`. The repository setting
-**Settings → Pages → Build and deployment → Source** must be **GitHub Actions** (not "Deploy from a branch").

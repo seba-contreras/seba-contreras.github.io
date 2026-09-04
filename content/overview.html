@@ -1,0 +1,80 @@
+<section class="landing-hero" aria-labelledby="landing-title">
+  <div class="landing-hero__copy">
+    <p class="landing-eyebrow">Complex systems · Spreading processes · Epidemiology</p>
+    <h1 id="landing-title">Spreading processes in adaptive systems <span>— where behaviour and disease shape each other</span></h1>
+    <div class="landing-hero__intro">
+      <p class="landing-hero__lead">Mathematical modelling of epidemics, behaviours, and the temporal contact networks that carry them.</p>
+    </div>
+  </div>
+
+  <figure class="landing-hero__visual">
+    <img
+      src="./img/spreading-network.png"
+      alt="An epidemic front travelling across a spatial contact network: recovered nodes on the left, infected nodes with faded, adapted links in the middle, susceptible nodes on the right"
+      width="1024"
+      height="342"
+      fetchpriority="high"
+    />
+  </figure>
+</section>
+
+<section class="landing-research" aria-labelledby="research-themes-title">
+  <header class="landing-section-heading">
+    <div>
+      <p class="landing-eyebrow">My work</p>
+      <h2 id="research-themes-title">Research themes</h2>
+    </div>
+    <a class="landing-text-link" href="/research/">Explore all research topics <span aria-hidden="true">→</span></a>
+  </header>
+
+  <article class="landing-research__item">
+    <div class="landing-research__number" aria-hidden="true">01</div>
+    <h3>Behaviour-driven epidemics</h3>
+    <p>
+      <strong>Diseases spread on populations that react to them.</strong> People test, protect themselves, or change whom they meet as their perception of risk shifts, and the disease responds in turn. I study this feedback with models in which <strong>behaviour and infection dynamics co-evolve</strong> — from the interplay between risk perception and the spread of COVID-19 to the testing paradox of bacterial STIs among MSM on HIV PrEP. A central question is which interventions remain effective once the population adapts to them.
+    </p>
+  </article>
+
+  <article class="landing-research__item">
+    <div class="landing-research__number" aria-hidden="true">02</div>
+    <h3>Controllability of outbreaks</h3>
+    <p>
+      <strong>How much control over an outbreak is possible, and at what cost?</strong> Using minimal models as instruments, I have worked on the limits of test-trace-and-isolate, the stable low-case-number regime and the <strong>tipping point beyond which spread self-accelerates</strong>, relaxing restrictions at the pace of vaccination, and the complex — even chaotic — dynamics that emerge in the endemic state when moderate mitigation interacts with seasonality.
+    </p>
+  </article>
+
+  <article class="landing-research__item">
+    <div class="landing-research__number" aria-hidden="true">03</div>
+    <h3>Adaptive networks, and modelling beyond epidemics</h3>
+    <p>
+      <strong>Contacts are not static</strong>: they are temporal, structured and adaptive. I work on spreading processes on such networks — risk-mediated regulation of contacts in metapopulations, household structure as a driver of incidence, sampling strategies for genomic surveillance — and keep several active collaborations in other fields where a bit of extra modelling helps, from glucose–insulin dynamics and protein engineering to cancer genomics. <strong>If you feel like your research could use some extra modelling, let's get in touch.</strong>
+    </p>
+  </article>
+</section>
+
+<section class="landing-featured" aria-labelledby="featured-title">
+  <header class="landing-section-heading">
+    <div>
+      <p class="landing-eyebrow">Selected publications</p>
+      <h2 id="featured-title">Three papers to start with</h2>
+    </div>
+    <a class="landing-text-link" href="/publications/">Full publication list <span aria-hidden="true">→</span></a>
+  </header>
+
+  <div class="landing-featured__grid">
+    {% assign featured = site.data.publications | where: "featured", true %}
+    {% for publication in featured %}
+    <article class="landing-featured__card">
+      <a class="landing-featured__figure" href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener noreferrer" aria-label="{{ publication.title | escape }}">
+        <img src="{{ publication.image }}" alt="" loading="lazy" />
+      </a>
+      <div class="landing-featured__body">
+        <p class="landing-featured__venue">{{ publication.journal_short | default: publication.journal }} · {{ publication.year }}</p>
+        <h3><a href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener noreferrer">{{ publication.title }}</a></h3>
+        <p class="landing-featured__blurb">{{ publication.blurb }}</p>
+        <a class="landing-text-link" href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
