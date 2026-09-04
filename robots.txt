@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://seba-contreras.github.io/sitemap.xml

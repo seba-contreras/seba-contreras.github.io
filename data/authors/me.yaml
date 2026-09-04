@@ -1,0 +1,144 @@
+# Author profile — edit freely (dates taken from the CV, Sept 2026).
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Seba Contreras
+  given: Sebastián
+  family: Contreras
+postnominals:
+- Dr. rer. nat.
+status:
+  icon: 🌊
+role: Associate Professor · Physics of Spreading Processes
+bio: 'You''ve found me! I am Seba Contreras, a complex-systems physicist working at the boundary between statistical
+  physics and epidemiology. I am Associate Professor at the International Research Center for Complexity Sciences
+  of Beihang University (Hangzhou International Innovation Institute, H3I) and External Faculty at the Interdisciplinary
+  Center for Mathematical Modeling of Infectious Disease Dynamics (IMMIDD) of the University of Münster. Before
+  that, I was a doctoral and postdoctoral researcher in the Priesemann group at the Max Planck Institute for Dynamics
+  and Self-Organization in Göttingen.
+
+
+  I study spreading processes in adaptive systems: how epidemics and behaviours propagate on temporal contact networks
+  that themselves react to what is spreading. Using mathematical modelling, I search for general principles in the
+  dynamics of infectious diseases and quantitative insight into the controllability of outbreaks — from non-pharmaceutical
+  interventions and the interplay between information and disease spread to the modelling of sexually transmitted
+  infections and behaviour-driven epidemics.
+
+
+  Besides my primary research, I keep several active collaborations with researchers from other areas (human genetics,
+  machine learning, theoretical ecology, protein engineering, cancer research, social science, geostatistics). If
+  you feel like your research could use some extra modelling, let''s get in touch!'
+affiliations:
+- name: International Research Center for Complexity Sciences, Beihang University (H3I)
+  url: https://www.buaa.edu.cn/
+- name: IMMIDD, University of Münster
+  url: https://www.uni-muenster.de/IMMIDD/
+links:
+- icon: at-symbol
+  url: mailto:contreras@buaa.edu.cn
+  label: E-mail me
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=OuIoqBIAAAAJ&hl=en
+- icon: academicons/orcid
+  url: https://orcid.org/0000-0001-8909-774X
+- icon: academicons/researchgate
+  url: https://www.researchgate.net/profile/Sebastian-Contreras-2
+- icon: brands/github
+  url: https://github.com/seba-contreras
+- icon: academicons/cv
+  url: /uploads/CV_SContreras.pdf
+  label: CV
+editorial: Editorial Board Member of Scientific Reports and Founding Editorial Board Member of Scientific Reviews
+  (Nature Portfolio).
+interests:
+- Complex Systems
+- Spreading Processes
+- Temporal & Adaptive Networks
+- Infectious Diseases
+- Behaviour–Disease Feedback
+- Mathematical Modelling
+education:
+- degree: Dr. rer. nat. in Physics (summa cum laude)
+  institution: IMPRS Physics of Biological and Complex Systems, Georg-August-Universität Göttingen
+  year: 2020 – 2023
+  start: 2020-07-01
+  end: 2023-04-30
+- degree: MSc in Process Engineering (highest honours)
+  institution: Universidad de Chile
+  year: 2017 – 2019
+  start: 2017-07-01
+  end: 2019-07-31
+- degree: Civil Engineering (Diplom, highest honours)
+  institution: Universidad de Chile
+  year: 2012 – 2017
+  start: 2012-03-01
+  end: 2017-07-31
+experience:
+- role: Associate Professor (Tenure-Track)
+  org: International Research Center for Complexity Sciences, H3I, Beihang University, Hangzhou
+  start: 2026-01-01
+  summary: Lead of the Complex Epidemics lab at the department for complex networks. Supervision of PhD students
+    and postdoctoral researchers, and university teaching.
+- role: External Member
+  org: Interdisciplinary Center for Mathematical Modeling of Infectious Disease Dynamics (IMMIDD), University of
+    Münster
+  start: 2026-04-01
+- role: Team Leader and Postdoctoral Researcher
+  org: Max Planck Institute for Dynamics and Self-Organization & Georg-August-Universität Göttingen
+  start: 2023-05-01
+  end: 2025-12-31
+  summary: Research and project lead of a multi-institution subproject in the BMBF-funded modelling consortium MIBSTI
+    (Modeling the complex Interplay between human Behaviour and Sexually Transmitted Infections). Supervision of
+    students up to PhD level, and university teaching.
+- role: PhD Student, MPRG Priesemann
+  org: Max Planck Institute for Dynamics and Self-Organization, Göttingen
+  start: 2020-06-01
+  end: 2023-04-30
+  summary: 'Thesis: *Complex Dynamics in the Spread of COVID-19* — the interplay between information, risk perception
+    and disease spread, and its implications for mitigation.'
+- role: Research Assistant and Predoctoral Researcher
+  org: Centre for Biotechnology and Bioengineering (CeBiB), Universidad de Chile
+  start: 2016-06-01
+  end: 2020-06-30
+  summary: Multigroup SEIRA models and real-time estimators of the effective reproduction number of COVID-19 in
+    Chile; DDE models of human glucose–insulin dynamics; DMAKit.
+awards:
+- title: Best doctoral dissertation in theoretical physics
+  awarder: University of Göttingen — Dr. Berliner – Dr. Ungewitter – Stiftung
+  date: '2025-01-01'
+  icon: hero/trophy
+- title: Best Graduate (2019)
+  awarder: Colegio de Ingenieros de Chile
+  date: '2020-01-01'
+  icon: hero/trophy
+- title: Outstanding student, Master’s Program
+  awarder: Faculty of Physical and Mathematical Sciences (FCFM), Universidad de Chile
+  date: '2018-01-01'
+  icon: hero/academic-cap
+skills:
+- name: Programming
+  items:
+  - label: Julia
+    level: 5
+  - label: Python
+    level: 4
+  - label: R
+    level: 4
+  - label: MATLAB
+    level: 3
+- name: Hobbies
+  items:
+  - label: Diving, running, swimming, hiking
+  - label: Piano, singing (and formerly professional cello)
+  - label: Chilean, Peruvian and German cooking
+languages:
+- name: Spanish
+  level: 5
+  label: Native
+- name: English
+  level: 5
+  label: C2
+- name: German
+  level: 4
+  label: C1
